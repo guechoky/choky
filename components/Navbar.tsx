@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <header className="absolute inset-x-0 top-0 z-20">
       <nav className="mx-auto grid max-w-7xl grid-cols-[1fr_auto_1fr] items-center px-8 py-6">
-        <a href="#home" className="font-display text-[30px] leading-none text-ink">
+        <a href="#home" className="font-display text-[30px] leading-none text-white">
           ChokY<sup className="text-xs align-super">™</sup>
         </a>
 
