@@ -1,15 +1,15 @@
-import SunsetHero from "./SunsetHero";
+import SunsetHeroEnhanced from "./SunsetHeroEnhanced";
 
 export default function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen items-center justify-center overflow-hidden bg-video-fallback"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden"
     >
       <div className="relative h-screen w-full">
-        <SunsetHero 
-          title="Halo, nama saya ChokY 👋" 
-          subtitle="" 
+        <SunsetHeroEnhanced
+          title="Halo, nama saya ChokY 👋"
+          subtitle=""
         >
           <div className="mx-auto max-w-[1280px] px-8 text-center">
             <h1
@@ -39,7 +39,7 @@ export default function Hero() {
               </a>
             </div>
           </div>
-        </SunsetHero>
+        </SunsetHeroEnhanced>
       </div>
     </section>
   );
