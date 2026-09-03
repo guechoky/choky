@@ -1,4 +1,5 @@
-const NAV_LINKS = [];
+// Ganti baris 1 di components/Navbar.tsx dengan ini:
+const NAV_LINKS: { label: string; href: string }[] = [];
 
 // NOTE: nav links and the CTA below point to "#" — this page currently
 // only has a Hero section, so there's nothing yet for them to link to.
